@@ -5,6 +5,7 @@ using namespace std;
 class Factory {
 
   string name;
-  Factory(string name): name(name){
-  }
+  public:
+  Factory(string name);
+  string getName();
 };
